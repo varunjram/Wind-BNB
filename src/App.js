@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Stay from "./StayCard";
 import GuestForm from "./GuestForm.js";
