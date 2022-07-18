@@ -16,7 +16,6 @@ function App() {
             <Stay key={index} stay={object} />
           ))}
         </div>
-        {console.log("awesome")}
       </div>
     </div>
   );
