@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Counter from "./counter.js";
-import Input from "./Input.js";
+import Input from "./input.js";
 import { guestdata } from "./util.js";
 
 export default function GuestForm() {
