@@ -1,5 +1,5 @@
 import "./App.css";
-import Stay from "./StayCard";
+import Stay from "./stayCard";
 import GuestForm from "./guestForm.js";
 import { stays } from "./util.js";
 
