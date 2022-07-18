@@ -1,21 +1,11 @@
 import { useState } from "react";
-import Counter from "./Counter.js";
+import Counter from "./counter.js";
 import Input from "./Input.js";
-import "./App.css";
+import { guestdata } from "./util.js";
 
 export default function GuestForm() {
   const [adlutcount, setAdlutCount] = useState(0);
   const [childCount, setchildCount] = useState(0);
-  const guestdata = [
-    {
-      catagory: "Adult",
-      description: "Age 13 or above",
-    },
-    {
-      catagory: "Children",
-      description: "Age 2-12",
-    },
-  ];
 
   return (
     <div className="GuestForm">

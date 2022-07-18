@@ -46,7 +46,7 @@ h3 {
 
 .rating-class {
   display: inline-block;
-  float: right;
+  /* float: right; */
 }
 
 .GuestForm {

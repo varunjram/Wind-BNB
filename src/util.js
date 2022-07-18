@@ -42,3 +42,14 @@ export const stays = [
     img: "https://picsum.photos/303/203",
   },
 ];
+
+export const guestdata = [
+  {
+    catagory: "Adult",
+    description: "Age 13 or above",
+  },
+  {
+    catagory: "Children",
+    description: "Age 2-12",
+  },
+];

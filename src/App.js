@@ -1,7 +1,7 @@
 import "./App.css";
 import Stay from "./StayCard";
-import GuestForm from "./GuestForm.js";
-import { stays } from "./util";
+import GuestForm from "./guestForm.js";
+import { stays } from "./util.js";
 
 function App() {
   return (
