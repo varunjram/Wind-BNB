@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Stay from "./StayCard";
+import GuestForm from "./GuestForm.js";
+import { stays } from "./util";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="contain">
+        <h1>Stays</h1>
+        <GuestForm />
+
+        <div className="maindiv">
+          {stays.map((object, index) => (
+            <Stay key={index} stay={object} />
+          ))}
+        </div>
+        {console.log("awesome")}
+      </div>
     </div>
   );
 }
